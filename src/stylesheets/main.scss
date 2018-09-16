@@ -1,0 +1,21 @@
+@import './nav.scss';
+
+html, body {
+    margin: 0;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    &__title {
+        text-align: center;
+        padding-top: 50%;
+    }
+    &__form {
+        text-align: center;
+    }
+}
